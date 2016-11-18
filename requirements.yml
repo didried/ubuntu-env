@@ -1,0 +1,2 @@
+- name: didried.virtualbox
+  src: 'git+https://github.com/didried/ansible-virtualbox'

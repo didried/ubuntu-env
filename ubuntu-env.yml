@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars:
+    virtualbox_version: "5.1"
+    virtualbox_install_dkms: yes
+  roles:
+    - { role: didried.virtualbox }
+...
