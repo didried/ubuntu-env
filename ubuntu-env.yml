@@ -1,8 +1,14 @@
 ---
 - hosts: localhost
+
   vars:
+    bash_aliases_docker: yes
+    bash_aliases_steam: yes
+
     virtualbox_version: "5.1"
     virtualbox_install_dkms: yes
+
   roles:
-    - { role: didried.virtualbox }
+    - { role: bash-aliases }
+    - { role: virtualbox }
 ...

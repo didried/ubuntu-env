@@ -1,2 +1,6 @@
-- name: didried.virtualbox
+---
+- name: bash-aliases
+  src: 'git+https://github.com/didried/ansible-bash-aliases'
+- name: virtualbox
   src: 'git+https://github.com/didried/ansible-virtualbox'
+...
